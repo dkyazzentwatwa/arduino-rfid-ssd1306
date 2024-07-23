@@ -25,7 +25,7 @@ This project implements an RFID card reader using an Arduino, MFRC522 RFID modul
 
 - Arduino board (Uno, Nano, Mega, etc.)
 - MFRC522 RFID module
-- SSD1306 OLED display (128x64 pixels)
+- SSD1306 .96inch OLED display (128x64 pixels)
 - RFID cards/tags (Mifare 1K, etc.)
 - Jumper wires
 
@@ -58,31 +58,19 @@ Note: Pin connections may vary depending on your Arduino board. Please refer to 
 1. Clone this repository or download the ZIP file.
 2. Open the Arduino IDE.
 3. Install the required libraries through the Library Manager.
-4. Open the `RFID_Reader_OLED.ino` file.
-5. Select your Arduino board and port in the IDE.
-6. Upload the sketch to your Arduino.
+4. Open the .ino.
+5. Select your board board and port in the IDE.
+6. Upload the sketch to your board.
 
 ## Usage
 
-1. Power up your Arduino with the connected MFRC522 module and OLED display.
+1. Power up your board with the connected MFRC522 module and OLED display.
 2. The OLED screen will show a waiting message.
 3. Present an RFID card to the MFRC522 module.
 4. The card's information will be displayed on the OLED screen and sent to the Serial Monitor.
 5. To read another card, simply present it to the module.
 
-## Contributing
-
-Contributions to this project are welcome. Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Make your changes and commit them with descriptive messages.
-4. Push your changes to your fork.
-5. Submit a pull request.
-
-## License
-
-This project is released under the MIT License. See the [LICENSE](LICENSE) file for details.
-<img src="promo1" alt="Wardriver project" width="300"/>
 <br>
-<img src="promo2" alt="Wardriver project" width="300"/>
+<img src="/img/promo1.jpg" alt="Wardriver project" width="300"/>
+<br>
+<img src="/img/promo2.jpg" alt="Wardriver project" width="300"/>
